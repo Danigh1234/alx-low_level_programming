@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- *main - entery point
+ *main fun is entery to fun
  *
- *return: always 0 (success) 
- * /
-int main (void)
+ *return: if zero success
+ */
+int main(void)
 {
 put("\"Programming is like building a multilingual puzzle");
-return(0);
+return (0);
 }
