@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main fun is entery to fun
+ *main - entry piont
  *
- *return: if zero success
+ *return: always 0 (success)
  */
 int main(void)
 {
