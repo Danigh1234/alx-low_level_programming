@@ -1,0 +1,1 @@
+second assigment on c language 
