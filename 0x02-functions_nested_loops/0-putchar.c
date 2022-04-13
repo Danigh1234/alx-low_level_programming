@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * main-entry to fuction
- * description - function prirnts _putchar in a newline
- * return this program returns zero
+ * main - entery to the function
+ *
+ * return - function returns zero if successful
  */
 int main(void)
 {
@@ -15,5 +16,6 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+
 return (0);
 }
