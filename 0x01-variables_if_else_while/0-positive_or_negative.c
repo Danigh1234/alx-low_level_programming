@@ -1,22 +1,29 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main: entry to fuction */
+#include <stdio.h>
+
+/**
+ * main - Prints if number is positive, zero or negative
+ *
+ * Return: Always (Success)
+ */
+
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-
-/* function check wather num n is positive or negetive*/
-if (n > 1)
-printf(" %d is positive\n", n);
-else if (n < 1)
-printf(" %d is negetive\n", n);
+if (n > 0)
+{
+printf("%d is positive\n", n);
+}
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
 else
-printf(" %d is zero", n);
-
-/*return = 0 if successful*/
+{
+printf("%d is negative\n", n);
+}
 return (0);
 }
