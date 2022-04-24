@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * function identifies both upper and lower case chars
+ * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
- * returns (1) if char return zero if non char
+ *@c: The int to print
+ * Return: Always 0.
  */
 int _isalpha(int c)
 {
-/* statment of the function */
-if ((c > 'a' && c < 'c') || (c > 'A' && c < 'Z'))
+if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 {
-/* function returns 1 if true */
 return (1);
 }
-/* function returns 0 if condition is false */
 else
 {
 return (0);

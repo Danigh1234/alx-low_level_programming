@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * function print 10x 10 lower case alphabet
+ * print_alphabet_x10 - print 10x lower case alphabet
+ * return: return nothing
  */
 void print_alphabet_x10(void)
 {

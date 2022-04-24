@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * prints alphabet inlower case followed by newline
+ * print_alphabet - prints alphabet inlower case followed by newline
+ * return: return nothing return void
  */
 void print_alphabet(void)
 {
