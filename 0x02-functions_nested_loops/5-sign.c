@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * 5-sign function used for differentiating negetive and positive nums
+ * print_sign - used for differentiating negetive and positive nums
  *
- * return: 1 for pos, 0 for 0 and -1 for neg
+ * @n: num to be checked
+ * Return: Always 0.
  */
 int print_sign(int n)
 {
