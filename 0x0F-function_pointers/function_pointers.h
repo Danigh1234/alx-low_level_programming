@@ -2,5 +2,5 @@
 #define FUNCTION_POINTERS_H
 
 int _putchar(char a);
-int print_name(char *, void (*f)(char *));
+void print_name(char *, void (*f)(char *));
 #endif
