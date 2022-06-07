@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
  *array_iterator - will execute arg function to all element of array
  *@array[]: arg array
