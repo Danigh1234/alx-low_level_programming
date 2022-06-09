@@ -8,7 +8,7 @@
  * @n: num of num to printed
  * @...: num to printed
  */
-int print_numbers(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
 va_list num;
