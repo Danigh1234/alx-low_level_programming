@@ -17,7 +17,7 @@ va_start(s, n);
 for (i = 0; i < n; i++)
 {
 st = va_arg(s, char *);
-if (st == NULL)
+if (st != NULL)
 printf("%s", st);
 else
 printf("(nil)");
