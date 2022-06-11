@@ -23,22 +23,22 @@ sep = "";
 }
 switch (format[n])
 {
-case (c):
+case 'c':
 {
 printf("%c%S", va_arg(lists, int), sep);
 break;
 }
-case (i):
+case 'i':
 {
 printf("%d%s", va_arg(lists, int), sep);
 break;
 }
-case (f):
+case 'f':
 {
 printf("%f%s", va_arg(lists, float), sep)
 break;
 }
-case (s):
+case 's':
 {
 str = va_arg(lists, char *);
 if (!str)
