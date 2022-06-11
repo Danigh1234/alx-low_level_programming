@@ -8,7 +8,7 @@
  *@n: num of arg *@sep: spacer string
  *return: always 0
  */
-int print_all(const char * const format, ...)
+void print_all(const char * const format, ...)
 {
 int i = 0, n = 0;
 cha *str;
@@ -48,6 +48,6 @@ break;
 }
 n++
 }
+printf("\n");
 va_end(lists);
-rturn (0);
 }
