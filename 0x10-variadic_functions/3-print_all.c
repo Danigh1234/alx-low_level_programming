@@ -24,28 +24,20 @@ sep = "";
 switch (format[n])
 {
 case 'c':
-{
 printf("%c%s", va_arg(lists, int), sep);
 break;
-}
 case 'i':
-{
 printf("%d%s", va_arg(lists, int), sep);
 break;
-}
 case 'f':
-{
 printf("%f%s", va_arg(lists, float), sep);
 break;
-}
 case 's':
-{
 str = va_arg(lists, char *);
 if (!str)
 str = "(nil)";
 pritnf("%s", str);
 break;
-}
 }
 n++
 }
