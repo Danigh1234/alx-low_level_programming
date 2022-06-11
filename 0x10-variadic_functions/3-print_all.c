@@ -36,7 +36,7 @@ case 's':
 str = va_arg(lists, char *);
 if (!str)
 str = "(nil)";
-pritnf("%s", str);
+printf("%s", str);
 break;
 }
 n++
