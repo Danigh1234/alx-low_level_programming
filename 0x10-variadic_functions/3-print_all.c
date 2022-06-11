@@ -35,7 +35,7 @@ break;
 }
 case 'f':
 {
-printf("%f%s", va_arg(lists, float), sep)
+printf("%f%s", va_arg(lists, float), sep);
 break;
 }
 case 's':
