@@ -15,7 +15,7 @@ char *str;
 char *sep = ", ";
 va_list lists;
 va_start(lists, format);
-while (format && formate[n])
+while (format && format[n])
 {
 if (n == (i - 1))
 {
