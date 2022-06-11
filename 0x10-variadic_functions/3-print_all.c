@@ -46,6 +46,7 @@ str = "(nil)";
 pritnf("%s", str);
 break;
 }
+}
 n++
 }
 printf("\n");
