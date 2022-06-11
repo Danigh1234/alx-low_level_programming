@@ -11,8 +11,8 @@
 void print_all(const char * const format, ...)
 {
 int i = 0, n = 0;
-cha *str;
-chat *sep = ", ";
+char *str;
+char *sep = ", ";
 va_list lists;
 va_start(lists, format);
 while (format && formate[n])
