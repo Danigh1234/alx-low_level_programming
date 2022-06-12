@@ -30,7 +30,7 @@ case 'i':
 printf("%d%s", va_arg(lists, int), sep);
 break;
 case 'f':
-printf("%f%s", va_arg(lists, float), sep);
+printf("%f%s", va_arg(lists, double), sep);
 break;
 case 's':
 str = va_arg(lists, char *);
@@ -39,7 +39,7 @@ str = "(nil)";
 printf("%s", str);
 break;
 }
-n++
+n++;
 }
 printf("\n");
 va_end(lists);
