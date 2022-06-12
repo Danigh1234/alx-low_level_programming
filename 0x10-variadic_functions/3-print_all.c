@@ -24,7 +24,7 @@ sep = "";
 switch (format[n])
 {
 case 'c':
-printf("%c%s", va_arg(lists, long int), sep);
+printf("%c%s", va_arg(lists, int), sep);
 break;
 case 'i':
 printf("%d%s", va_arg(lists, int), sep);
